@@ -35,7 +35,7 @@ build/
 .vscode/
 
 ### Intellij ###
-.idea
+.idea/
 
 ### Mac OS ###
 .DS_Store
