@@ -3,7 +3,7 @@ import java.io.File
 
 fun calcOuterValue(str: String): Int {
     var outerValues = ""
-    for (index in 0 ..< str.length) {
+    for (index in 0 .. str.length - 1) {
         if (str[index].isDigit()) {
             outerValues += str[index]
             break
