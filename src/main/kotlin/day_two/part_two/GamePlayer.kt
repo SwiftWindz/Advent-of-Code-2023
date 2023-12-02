@@ -23,11 +23,10 @@ fun getMinimumBlocksPSum(game: GameConfig): Int {
             }
         }
     }
-    return highestPulled.let { map ->
-        map.values.reduce() { int1, int2 ->
+    return highestPulled.values.reduce() { int1, int2 ->
             int1 * int2
         }
-    }
+
 }
 
 fun blockChecker(dataFile: File): Int? {
