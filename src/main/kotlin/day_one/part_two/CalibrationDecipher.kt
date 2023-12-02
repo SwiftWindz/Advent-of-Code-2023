@@ -1,6 +1,9 @@
 package day_one.part_two
 import java.io.File
 
+/**
+ * Part 2
+ */
 val numberStings = listOf(
     "one" to 1,
     "two" to 2,

@@ -1,6 +1,9 @@
 package day_one.part_one
 import java.io.File
 
+/**
+ * Part 1
+ */
 fun calcOuterValue(str: String): Int {
     var outerValues = ""
     for (index in 0 .. str.length - 1) {
