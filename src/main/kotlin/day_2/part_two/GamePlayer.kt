@@ -1,4 +1,4 @@
-package day_two.part_two
+package day_2.part_two
 
 import java.io.File
 
